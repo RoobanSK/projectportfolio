@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.header{
+    width: 100%;
+    height: 40px;
+    background: black;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 101;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:blue;
+}
+
+li{
+    list-style: none;
+}
+
+i{
+    margin-right: 5px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 550px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.backimg{
+    width: 100%;
+    height: auto;
+    object-fit: 100% 100%;
+    object-position: center center;  
+    overflow: hidden;
+}
+
+.box{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: -600px;
+    left: 100px;    
+}
+
+h1{
+    font-size: 99px;
+    font-weight: 900;
+    margin-bottom: -40px;
+}
+
+h2{
+    font-size: 65px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin-bottom: -50px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 15px;
+}
+
+.box .buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px ;
+    gap: 90px;
+    position: relative;
+    left: 30px;
+}
+
+button{
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
